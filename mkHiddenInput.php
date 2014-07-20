@@ -1,0 +1,1 @@
+<input type="hidden" class="hiddenStateJsonID" name="<?php echo $this->name; ?>" value="<?php echo $this->value; ?>"/>

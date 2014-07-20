@@ -1,0 +1,137 @@
+/**
+ * GENERIC
+ */
+.full {
+	max-width: 100%;
+}
+
+.block {
+    display: block;
+}
+
+.alert-box .close {
+	padding-top: 8px;
+}
+
+.button-group a {
+	float: right;
+    margin-left: 10px;
+}
+
+.clear {
+	clear: both;
+}
+
+input, select {
+	margin-bottom: 0;
+}
+
+.input {
+	margin-bottom: 1em;
+}
+
+textarea {
+	margin-bottom: 1em;
+	min-height: 100px;
+}
+
+.error-message {
+	color: #c60f13;
+}
+
+.actions {
+	font-size: 2em;
+	line-height: 1em;
+	padding: 5px;
+	text-align: right;
+}
+
+.actions a {
+	padding-right: 5px;
+}
+
+.actions a:last-child {
+	padding-right: 0px;
+}
+
+.paging span {
+	padding: 0px 5px;
+}
+
+.disabled {
+	color: #aaa;
+}
+
+/**
+ * HEADER
+ */
+#header {
+	background: #2795b6; /* Old browsers */
+
+
+	margin-bottom: 20px;
+}
+
+#header h2, #header h1 {
+	background: url(/favicon32.png) no-repeat 0 10px;
+	padding-left: 40px;
+}
+
+#menu {
+	text-align: right;
+	position: relative;
+}
+
+#menu li {
+	display: inline;
+	margin: 0px 5px;
+}
+/*changed by jsl*/
+#menu li a {
+	color: #ffffff;
+}
+
+#menu li a:hover {
+	text-decoration: underline;
+}
+
+/**
+ * DEBUG KIT
+ */
+ #debug-kit-toolbar {
+	 top: 100px !important;
+ }
+
+
+ /**
+  * Team Chat
+  */
+
+tr.new td  {
+	font-weight: bold;
+}
+
+tr.new td:first-child:before {
+	content: '\1F4A5';
+	font-family: 'EntypoRegular';
+	padding-right: 5px;
+	font-size: 2em;
+	vertical-align: -6%;
+}
+
+.filter .button {
+    margin-bottom: 0px;
+}
+
+/*Added by Jennie*/
+ .panel h1, .panel h2 {
+ 	color: #000000;
+ }
+
+ nav label, nav a, li a {
+ 	color:#FFFFFF
+ }
+
+ .button {
+ 	font-size: 1em
+ }
