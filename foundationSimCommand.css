@@ -38,15 +38,18 @@ html,
 body {
   font-size: 100%; }
   
-div.footer {
+footer {
     width: 100%;
     position: relative;
-    height: 200px;
-    margin-top: -200px;
-	bottom: 0;
-	alignment-adjust:central;
+    height: 150px;
+      bottom: 0;
 }
 
+wrapper {
+	width: 100%;
+	height: 100%;
+	margin bottom:-150px;
+}
 
 body {
   background: #FFFFFF;
